@@ -1,0 +1,64 @@
+
+.titulo{
+padding: 5px;
+border-bottom: #282c34 dotted;
+margin: 10px 400px;
+margin-top: 10px;
+text-shadow: 4px 3px 0 #7A7A7A;
+color: #FFFFFF;
+
+
+}
+.card{
+  display: flex;
+  flex-direction: row;
+}
+.card__ferias{
+  margin: 50px 400px;
+  border: black solid 1px;
+  border-radius: 20px 40px;
+  padding: 15px 100px;
+  background: rgba(0, 0, 0, 0.356);
+  box-shadow: -3px 0px 15px 6px rgba(0,0,0,0.6);
+}
+.lista__ferias{
+ color: white;
+ list-style: none;
+
+}
+.cards{
+  display: flex;
+}
+.ferias__vencida{
+  background-color: rgba(255, 0, 0, 0.336);
+  padding: 10px 0;
+  border-radius: 20px;
+  
+}
+.ferias__agendar{
+  background-color: rgba(0, 0, 255, 0.418);
+  padding: 10px 0;
+  border-radius: 20px;
+}
+.ferias__agendar:hover{
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
